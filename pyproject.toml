@@ -8,7 +8,7 @@ packages = []
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4"
-vyper = "0.3.10"
+vyper = "0.4.3rc1"
 poetry = "^1.7"
 eth-abi = "4.1.0"
 titanoboa = {git = "https://github.com/vyperlang/titanoboa.git", rev = "ddd3db55a0e4ee24f1386306d70e617197ad41ae"}
