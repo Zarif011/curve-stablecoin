@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}{
+    "emri": "kontejneri-i-projektit-im-dev",
+    "imazh": "mcr.microsoft.com/devcontainers/base:ubuntu", // Çdo imazh gjenerik, i bazuar në Debian.
+    "karakteristikat": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "versioni": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "versioni": "më i fundit",
+            "moby": e vërtetë
+        }
+    }
+}
